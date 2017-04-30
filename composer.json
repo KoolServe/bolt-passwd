@@ -3,6 +3,9 @@
     "description": "A simple Bolt extension to password protect a page via basic auth.",
     "type": "bolt-extension",
     "keywords": [
+        "Basic Auth",
+        "Password Protect",
+        "Passwd"
     ],
     "require": {
         "bolt/bolt": "^3.2"
@@ -23,6 +26,7 @@
     },
     "extra": {
         "bolt-assets": "web",
-        "bolt-class": "Bolt\\Extension\\Koolserve\\Passwd\\PasswdExtension"
+        "bolt-class": "Bolt\\Extension\\Koolserve\\Passwd\\PasswdExtension",
+         "bolt-icon": "icon.png"
     }
 }
